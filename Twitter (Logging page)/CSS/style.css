@@ -1,0 +1,70 @@
+:root {
+  --text-color: black;
+  --main-color: white;
+  --button-color: #1d9bf0;
+  --button-text: #727275;
+}
+body {
+  background-color: var(--main-color);
+  font-family: "Roboto";
+  padding: 0;
+  margin: 0;
+}
+.main-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 80px;
+}
+.second-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  margin-bottom: 0.5rem;
+}
+.second-div-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+  height: 2.3rem;
+  border-radius: 2rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid var(--button-text);
+  font-weight: bold;
+  font-size: 1rem;
+}
+.second-div-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+  height: 2.3rem;
+  border-radius: 2rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid var(--button-text);
+  font-weight: bold;
+  font-size: 1rem;
+  color: var(--button-color);
+}
+button {
+  background-color: var(--main-color);
+}
+.second-div-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+  height: 2.3rem;
+  border-radius: 2rem;
+  background-color: var(--button-color);
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.div-para {
+  font-size: 0.7rem;
+  width: 70%;
+}
